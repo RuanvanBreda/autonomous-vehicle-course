@@ -1,6 +1,9 @@
 #pip install opencv-contrib-python
+#sudo apt-get install python3-matplotlib
+
 import cv2
 import numpy as np
+import matplotlib.pyplot as plt
 
 def canny(image):
     # Edge Detection using changes in intensity [0-255]
@@ -12,10 +15,11 @@ def canny(image):
     canny_image = cv2.Canny(blur_image, 50, 150)  # original image, low threshold, high threshold
     return canny_image
 
-image = cv2.imread('Image/test_image.jpg')
+image = cv2.imread('Image/test_image.jpg')  #RGB color image
 lane_image = image  #Make a copy of original image
 canny_image = canny(lane_image)
-cv2.imshow('result',canny_image)
-cv2.waitKey(0)  #Displays image untill further input is received
-
+# cv2.imshow('result',canny_image)
+# cv2.waitKey(0)  #Displays image untill further input is received
+plt.imshow(canny_image)
+plt.show()
 #Region of Interest
