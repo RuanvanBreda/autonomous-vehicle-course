@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Section 5 CV:Finding Lane Lines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+            <state relative-caret-position="270">
+              <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
               <folding>
                 <element signature="e#35#45#0" expanded="true" />
               </folding>
@@ -135,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554652833594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Blurr Greyscale Image to Reduce Noise">
+      <created>1554653157615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554653157615</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Use Canny Function to Compute Gradients">
+      <created>1554653417335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554653417335</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -189,13 +203,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Convert Image to Grayscale" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convert Image to Grayscale" />
+    <MESSAGE value="Blurr Greyscale Image to Reduce Noise" />
+    <MESSAGE value="Use Canny Function to Compute Gradients" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use Canny Function to Compute Gradients" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Section 5 CV:Finding Lane Lines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        <state relative-caret-position="270">
+          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
           <folding>
             <element signature="e#35#45#0" expanded="true" />
           </folding>
